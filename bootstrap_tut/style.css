@@ -1,0 +1,16 @@
+.btn-danger {
+    background-color: orange;
+}
+
+.btn-danger:hover {
+    background-color: black;
+}
+
+.col {
+    background-color: grey;
+    border: 2px solid black;
+}
+
+.col-container {
+    margin: 10px 10px
+}
