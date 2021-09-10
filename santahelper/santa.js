@@ -5,6 +5,7 @@ const file = fs.readFileSync('./data.txt', err => {
         console.log(err)
     }
 }).toString();
+console.time('Advent of Code 2015, Day 1');
 
 let floor = 0;
 let basement = 0;
@@ -23,10 +24,12 @@ let set = false;
     }
 })
 
+console.timeEnd('Advent of Code 2015, Day 1')
 console.log('The instructions lead him to floor: ' + floor)
 console.log('The instruction that first makes him hit the -1st floor is: ' + basement)
 
 /*
+Advent of Code 2015, Day 1: 0.569ms
 The instructions lead him to floor: 232
 The instruction that first makes him hit the -1st floor is: 1783
 */
